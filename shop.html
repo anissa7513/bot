@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Drop Zone - Sneakers Shop</title>
+    <link rel="stylesheet" href="sneakers-style.css">
+</head>
+<body>
+    <header>
+        <h1>👟 DROP ZONE</h1>
+        <p>Les dernières sorties au meilleur prix.</p>
+    </header>
+
+    <main>
+        <div class="product-grid">
+            <section class="product-card">
+                <div class="badge">Nouveau</div>
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?w=500" alt="Sneakers">
+                <div class="product-info">
+                    <h2>Air Force One "Reflect"</h2>
+                    <p>120,00 €</p>
+                    <a href="sneaker-info.html" class="btn-buy">Voir le modèle</a>
+                </div>
+            </section>
+    
+            <section class="product-card">
+                <div class="badge orange">Must Have</div>
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500" alt="Sneakers">
+                <div class="product-info">
+                    <h2>Air Jordan 1 "High Sky"</h2>
+                    <p>180,00 €</p>
+                    <a href="#" class="btn-buy">Voir le modèle</a>
+                </div>
+            </section>
+    
+            <section class="product-card">
+                <div class="badge blue">Running</div>
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Sneakers">
+                <div class="product-info">
+                    <h2>Nike Zoom "Speed"</h2>
+                    <p>145,00 €</p>
+                    <a href="#" class="btn-buy">Voir le modèle</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="chat-container">
+        <div id="chat-header">👟 SneakerCheck AI</div>
+        <div id="chat-box">
+            <p class="bot-msg">Salut ! Je suis SneakerCheck. Besoin d'un conseil sur la <b>taille</b> ou la <b>livraison</b> ?</p>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Posez une question...">
+            <button id="send-btn">Envoyer</button>
+        </div>
+    </div>
+
+    <script src="sneakers-bot.js"></script>
+</body>
+</html>
